@@ -6,18 +6,7 @@
 ------------------------------------------------------------------------------------
 I have included a small .txt file called password.txt, this includes around 700 random words that can be used as an example for passwords for testing.
 
-This program is designed to work with a .txt file that contains single lines of passwords as shown as an example below:
-
-team
-team12345
-@team12345#
-football
-house
-party
-friend
-car
-church
-sister
+This program is designed to work with a .txt file that contains single lines of passwords as shown in the passwords.txt file.
 ------------------------------------------------------------------------------------
 THE CHECK PASSWORD BUTTON
 The user can enter a password, Once the user presses the Check Password button, the program will check the .txt file for a match. The largest file size ive tested and worked with this on is 150GB, results took around 25-30mins. results may vary depending on users computer.
