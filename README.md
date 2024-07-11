@@ -1,8 +1,8 @@
-===========INSTRUCTIONS=========
-# Add file path to .txt file around lines 94 and 263.
-# Install all requirements. (pip install package_name etc...)
-# python main.py to run the program.
-# Press the ESC to break/stop program. (Escape Key on keyboard to close the program)
+INSTRUCTIONS
+Add file path to .txt file around lines 94 and 263.
+Install all requirements. (pip install package_name etc...)
+python main.py to run the program.
+Press the ESC to break/stop program. (Escape Key on keyboard to close the program)
 ------------------------------------------------------------------------------------
 I have included a small .txt file called password.txt, this includes around 700 random words that can be used as an example for passwords for testing.
 
@@ -34,4 +34,4 @@ The user presses the generate password button, a new window opens allowing the u
 
 The user enters there number choice and presses Generate Password, the screen closes showing their newly generated password in the display window, the user can now press CHECK PASSWORD to see if their new password is infact within the .txt file that they originally supplied. The user can also copy and paste their new password elsewhere.
 
-======================================================================================================================
+-----------------------------------------------------------------------------------------
