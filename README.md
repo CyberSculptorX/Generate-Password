@@ -1,4 +1,4 @@
-====================================================================================================
+===========INSTRUCTIONS=========
 # Add file path to .txt file around lines 94 and 263.
 # Install all requirements. (pip install package_name etc...)
 # python main.py to run the program.
