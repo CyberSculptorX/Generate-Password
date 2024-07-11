@@ -2,6 +2,7 @@
 # Install all requirements. (pip install package_name etc...)
 # python main.py to run
 # press the ESC to break/stop program. (Escape Key on keyboard to close the program)
+# Author CyberSX
 
 import tkinter as tk
 from tkinter import Label, Button, Entry, StringVar, Text, Scrollbar, messagebox
