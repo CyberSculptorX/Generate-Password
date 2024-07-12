@@ -20,7 +20,7 @@ timer_running = False
 permutations_list = []
 
 # Define file path here
-file_path = r" ***ADD YOUR FILE PATH FOR .TXT FILE HERE*** "
+file_path = r"ADD YOUR FILE PATH FOR .TXT FILE HERE"
 
 # Utility functions
 def generate_strong_password(length=15):
