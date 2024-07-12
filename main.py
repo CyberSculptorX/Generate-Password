@@ -1,4 +1,4 @@
-# Add file path to .txt file around lines 94 and 263.
+# Add file path to .txt file around line 24.
 # Install all requirements. (pip install package_name etc...)
 # python main.py to run
 # press the ESC to break/stop program. (Escape Key on keyboard to close the program)
