@@ -1,7 +1,7 @@
 # Add file path to .txt file around line 24.
 # python main.py to run
 # press the ESC to break/stop program. (Escape Key on keyboard to close the program)
-# Author CyberSX
+# Author CyberSculptorX
 
 import tkinter as tk
 from tkinter import Label, Button, Entry, StringVar, Text, Scrollbar, messagebox
