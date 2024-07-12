@@ -1,5 +1,4 @@
 # Add file path to .txt file around line 24.
-# Install all requirements. (pip install tkinter os random threading time string secrets itertools pip install tkinter pip install secrets)
 # python main.py to run
 # press the ESC to break/stop program. (Escape Key on keyboard to close the program)
 # Author CyberSX
