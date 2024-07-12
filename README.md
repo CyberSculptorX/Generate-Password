@@ -5,6 +5,7 @@ pip install tkinter os random threading time string secrets itertools
 pip install tkinter
 pip install secrets
 
+to check if tkinter is installed, use command python -m tkinter (If a simple Tk window opens up, then tkinter is correctly installed.)
 Press the ESC to break/stop program. (Escape Key on keyboard to close the program)
 ------------------------------------------------------------------------------------
 I have included a small .txt file called password.txt, this includes around 700 random words that can be used as an example for passwords for testing.
