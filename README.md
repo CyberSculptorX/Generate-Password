@@ -14,7 +14,7 @@ The user can enter a password, Once the user presses the Check Password button, 
 The .txt file path can be replaced and changed within the main.py code. 
 -------------------------------------------------------------------------------------
 THE FETCH RANDOM LINES BUTTON
-The "Fetch Random Lines" button, will return a maximum of 1000 lines taken from a random area of the .txt file that the user has supplied (#Remember to add the file path to .txt file around lines 94 and 263, this is so the program knows where to scan the .txt file that contains all the words).
+The "Fetch Random Lines" button, will return a maximum of 1000 lines taken from a random area of the .txt file that the user has supplied (#Remember to add the file path to .txt file around line 24, this is so the program knows where to scan the .txt file that contains all the words).
 
 These returned results can be viewed in the display window.
 
