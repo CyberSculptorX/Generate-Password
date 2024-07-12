@@ -123,7 +123,7 @@ def fetch_random_lines():
             data = file.read(chunk_size)
             lines.extend(data.splitlines())
         random_lines = random.sample(lines, min(1000, len(lines)))
-        random_lines_text.insert(tk.END, "Random Lines:\n\n")
+        random_lines_text.insert(tk.END, "\n\n")
         for line in random_lines:
             random_lines_text.insert(tk.END, f"{line}\n")
     except IOError as e:
