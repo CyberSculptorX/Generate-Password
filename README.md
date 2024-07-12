@@ -1,5 +1,5 @@
 INSTRUCTIONS
-Add file path to .txt file around lines 94 and 263.
+Add file path to .txt file around line 24.
 Install all requirements. (pip install package_name etc...)
 python main.py to run the program.
 Press the ESC to break/stop program. (Escape Key on keyboard to close the program)
@@ -9,7 +9,7 @@ I have included a small .txt file called password.txt, this includes around 700 
 This program is designed to work with a .txt file that contains single lines of passwords as shown in the passwords.txt file.
 ------------------------------------------------------------------------------------
 THE CHECK PASSWORD BUTTON
-The user can enter a password, Once the user presses the Check Password button, the program will check the .txt file for a match. The largest file size ive tested and worked with this on is 150GB, results took around 25-30mins. results may vary depending on users computer.
+The user can enter a password, Once the user presses the Check Password button, the program will check the .txt file for a match. results may vary depending on users computer.
 
 The .txt file path can be replaced and changed within the main.py code. 
 -------------------------------------------------------------------------------------
@@ -32,6 +32,7 @@ The program is designed to work at full screen, so in order to close the program
 THE GENERATE PASSWORD BUTTON
 The user presses the generate password button, a new window opens allowing the user to enter the length they wish their password to be, minimum charactors allowed will be 15 (alphabet, digits and punctuation will be used to create a password). If the user enters a number lower than 15, this will raise an error and they will be asked to do again.
 
-The user enters there number choice and presses Generate Password, the screen closes showing their newly generated password in the display window, the user can now press CHECK PASSWORD to see if their new password is infact within the .txt file that they originally supplied. The user can also copy and paste their new password elsewhere.
+The user enters there number choice and presses Generate Password, the screen closes showing their newly generated password in the display window, the user can now press CHECK PASSWORD to see if their new password is infact within the .txt file that they originally supplied.
 
+Designed for testing purposes only.
 -----------------------------------------------------------------------------------------
