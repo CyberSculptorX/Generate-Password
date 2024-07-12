@@ -1,6 +1,7 @@
 INSTRUCTIONS
 Add file path to .txt file around line 24.
-Install all requirements.
+# Install required packages
+pip install tkinter os random threading time string secrets itertools
 Press the ESC to break/stop program. (Escape Key on keyboard to close the program)
 ------------------------------------------------------------------------------------
 I have included a small .txt file called password.txt, this includes around 700 random words that can be used as an example for passwords for testing.
