@@ -1,7 +1,6 @@
 INSTRUCTIONS
 Add file path to .txt file around line 24.
-Install all requirements. (pip install package_name etc...)
-python main.py to run the program.
+Install all requirements.
 Press the ESC to break/stop program. (Escape Key on keyboard to close the program)
 ------------------------------------------------------------------------------------
 I have included a small .txt file called password.txt, this includes around 700 random words that can be used as an example for passwords for testing.
