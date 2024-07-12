@@ -20,6 +20,9 @@ stop_event = None
 timer_running = False
 permutations_list = []
 
+# Define file path here
+file_path = r"***ENTER THE FILE PATH TO THE .TXT FILE HERE ***"
+
 # Function to generate a strong password
 def generate_strong_password(length=15):
     if length < 15:
@@ -94,7 +97,6 @@ def format_time(elapsed_time):
 
 def fetch_random_lines():
     random_lines_text.delete('1.0', tk.END)
-    file_path = r"** ADD FILE PATH HERE ** \password.txt"
     total_size = os.path.getsize(file_path)
     random_position = random.randint(0, total_size)
     lines = []
@@ -259,11 +261,9 @@ random_lines_frame.pack(side="bottom", fill="both", expand=True)
 scrollbar = Scrollbar(random_lines_frame)
 scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
 
-random_lines_text = Text(random_lines_frame, wrap="word", bg="black", fg="green", yscrollcommand=scrollbar.set, font=('Arial', 22))
+random_lines_text = Text(random_lines_frame, wrap="word", bg="black", fg="green", yscrollcommand=scrollbar.set, font=('Arial', 14))
 random_lines_text.pack(pady=15, fill="both", expand=True)
 scrollbar.config(command=random_lines_text.yview)
-
-file_path = r"** ADD FILE PATH HERE ** \password.txt"
 
 root.state('zoomed')
 root.mainloop()
